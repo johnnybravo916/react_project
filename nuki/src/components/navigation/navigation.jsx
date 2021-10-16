@@ -1,7 +1,33 @@
 import React from "react";
 
-function Navigation() {
-    return <h1>Navigation</h1>;
+export default function Navigation() {
+    return (
+        <ul>
+            <li>
+                <a href="#" title="#">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#" title="#">
+                    Hello
+                </a>
+            </li>
+            <li>
+                <a href="#" title="#">
+                    Eat
+                </a>
+            </li>
+            <li>
+                <a href="#" title="#">
+                    Delivery
+                </a>
+            </li>
+            <li>
+                <a href="#" title="#">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    );
 }
-
-export default Navigation;
