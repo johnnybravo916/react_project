@@ -1,14 +1,13 @@
 {
-    "meta": [
+    "meta": 
         {
             "title": "Nuki Sushi Restaurant",
             "description": "TO DO"
         }
-    ],
-    "hero": [
+    ,
+    "hero": 
         {
             "header": "Welcome",
             "subheader": "Open for dining"
         }
-    ]
 }
