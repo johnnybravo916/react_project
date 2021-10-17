@@ -36,7 +36,7 @@ function App() {
 
     return (
         <>
-            <Header props={data.meta} loading={isloading}/>
+            <Header data={data.meta} loading={isloading}/>
             <Hero />
             <Menu />
             <About />
