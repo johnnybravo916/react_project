@@ -1,13 +1,35 @@
 {
-    "meta": 
-        {
-            "title": "Nuki Sushi Restaurant",
-            "description": "TO DO"
-        }
-    ,
-    "hero": 
-        {
-            "header": "Welcome",
-            "subheader": "Open for dining"
-        }
+    "meta": {
+        "title": "Nuki Sushi Restaurant",
+        "description": "TO DO"
+    },
+    "hero": {
+        "header": "Welcome",
+        "subheader": "The place to be for sushi"
+    },
+    "about": {
+        "title": "Hello",
+        "content": "Nuki Sushi Restaurant is the second venture from the owners of Raiz Kitchen & Sushi. We offer a myriad of specialty rolls that have been crafted by our chef's over the course of the 30 years that they've been in the sushi industry. Our cuisine can be delivered to you for your convenience or can be enjoyed in our intimate dining rooms where you are free to bring your own alcohol."
+    },
+    "menu": {
+        "title_00": "Starters",
+        "content_00": [
+            {
+                "title": "Miso Soup",
+                "price": 2.0
+            },
+            {"title": "Spicy Miso Soup", "price": 3.0}
+        ],
+        "title_01": "Starters two",
+        "content_01": [
+            {
+                "title": "Miso Soup soup",
+                "price": 2.0
+            },
+            {"title": "Spicy Miso Soup soup", "price": 3.0}
+        ]
+    },
+    "contact": {
+        "address": "1406 W Grand Ave, Chicago, IL 60642"
+    }
 }

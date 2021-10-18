@@ -1,10 +1,10 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 
-export default function Hero() {
+export default function Hero(props) {
     return (
-        <div className="hero">
-            <h1>Welcome</h1>
-            <h2>We are open for dine in or delivery</h2>
-        </div>
+        <section id="hero" className="hero">
+            <h1>{props.data.header}</h1>
+            <h2>{props.data.subheader}</h2>
+        </section>
     );
 }

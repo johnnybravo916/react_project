@@ -33,14 +33,19 @@ function App() {
         getData();
     }, []);
 
-
     return (
         <>
-            <Header data={data.meta} loading={isloading}/>
-            <Hero />
-            <Menu />
-            <About />
-            <Contact />
+            {isloading ? (
+                "loading"
+            ) : (
+                <>
+                    <Header data={data.meta} />
+                    <Hero data={data.hero} />
+                    <About data={data.about} />
+                    <Menu data={data.menu} />
+                    <Contact data={data.contact} />
+                </>
+            )}
         </>
     );
 }

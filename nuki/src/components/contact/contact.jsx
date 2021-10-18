@@ -1,7 +1,10 @@
 import React from "react";
 
-function Contact() {
-    return <h1>Contact</h1>;
+export default function Contact(props) {
+    return (
+        <section className="contact">
+            <h2>Get in Touch</h2>
+            <p>{props.data.address}</p>
+        </section>
+    );
 }
-
-export default Contact;
