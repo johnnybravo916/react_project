@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import "./styles/globalStyles.scss";
+import "./styles/variables.scss";
 import "./App.css";
 
 import Header from "./components/header/header";
@@ -39,13 +40,13 @@ function App() {
             {isloading ? (
                 "loading"
             ) : (
-                <>
+                <main class="container">
                     <Header data={data.meta} />
                     <Hero data={data.hero} />
                     <About data={data.about} />
                     <Menu data={data.menu} />
                     <Contact data={data.contact} />
-                </>
+                </main>
             )}
         </>
     );
