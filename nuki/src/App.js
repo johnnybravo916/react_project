@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
-import "./styles/globalStyles.scss";
-import "./styles/variables.scss";
+import "./styles/app.scss";
 import "./App.css";
 
 import Header from "./components/header/header";
