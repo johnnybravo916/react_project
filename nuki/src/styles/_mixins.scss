@@ -1,26 +1,24 @@
-/** Media Queries **/
-
-@mixin phone-only {
+@mixin fsm-only {
     @media (max-width: 599px) {
         @content;
     }
 }
-@mixin tablet-portrait-up {
+@mixin m-up {
     @media (min-width: 600px) {
         @content;
     }
 }
-@mixin tablet-landscape-up {
+@mixin l-up {
     @media (min-width: 900px) {
         @content;
     }
 }
-@mixin desktop-up {
+@mixin xl-up {
     @media (min-width: 1200px) {
         @content;
     }
 }
-@mixin wide-up {
+@mixin xxl-up {
     @media (min-width: 1800px) {
         @content;
     }
