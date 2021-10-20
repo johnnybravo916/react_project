@@ -2,9 +2,11 @@ import React from "react";
 
 export default function About(props) {
     return (
-        <section className="about">
-            <h2>{props.data.title}</h2>
-            <p>{props.data.content}</p>
+        <section id="hello" className="border-bottom border-top center-content">
+            <div class="about">
+                <h2>{props.data.title}</h2>
+                <p>{props.data.content}</p>
+            </div>
         </section>
     );
 }

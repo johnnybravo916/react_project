@@ -6,20 +6,52 @@ h1 {
     font-weight: var(--font-weight-light);
     text-align: center;
     @include m-up {
-      --font-size: 7rem;
+        --font-size: 7rem;
     }
     @include l-up {
-      --font-size: 10rem;
+        --font-size: 10rem;
     }
 }
 
 h2 {
-  --font-size: 1rem;
-  margin: 0;
-  text-align: center;
-  font-size: var(--font-size);
-  font-weight: var(--font-weight-medium);
-  @include m-up {
-      --font-size: 2rem;
-  }
+    --font-size: 1rem;
+    margin: 0;
+    text-align: center;
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-medium);
+    @include m-up {
+        --font-size: 2rem;
+    }
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--col-font-black);
+}
+
+.border-top {
+    border-top: 1px solid var(--col-font-black);
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0 0 0 0;
+}
+li {
+    list-style-type: none;
+}
+section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
