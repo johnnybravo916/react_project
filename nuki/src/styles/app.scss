@@ -1,5 +1,7 @@
-@import "_mixins";
+@import "mixins";
+@import "global";
 @import "layout";
 @import "variables";
 
 @import "./sections/hero.scss";
+@import "./sections/about.scss";
