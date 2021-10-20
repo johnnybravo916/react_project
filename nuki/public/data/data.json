@@ -12,22 +12,229 @@
         "content": "Nuki Sushi Restaurant is the second venture from the owners of Raiz Kitchen & Sushi. We offer a myriad of specialty rolls that have been crafted by our chef's over the course of the 30 years that they've been in the sushi industry. Our cuisine can be delivered to you for your convenience or can be enjoyed in our intimate dining rooms where you are free to bring your own alcohol."
     },
     "menu": {
-        "title_00": "Starters",
-        "content_00": [
-            {
-                "title": "Miso Soup",
-                "price": 2.0
-            },
-            {"title": "Spicy Miso Soup", "price": 3.0}
-        ],
-        "title_01": "Starters two",
-        "content_01": [
-            {
-                "title": "Miso Soup soup",
-                "price": 2.0
-            },
-            {"title": "Spicy Miso Soup soup", "price": 3.0}
-        ]
+        "section_00": {
+            "title": "Starters",
+            "content": [
+                {
+                    "title": "Miso Soup",
+                    "price": 2.0
+                },
+                {
+                    "title": "Spicy Miso Soup",
+                    "price": 2.0
+                },
+                {
+                    "title": "Edamame",
+                    "price": 5.0
+                },
+                {
+                    "title": "Spicy Garlic Edamame",
+                    "price": 6.0
+                },
+                {
+                    "title": "Shumai",
+                    "description": "Japanese Shrimp Dumplings",
+                    "price": 6.0
+                },
+                {
+                    "title": "Poke Tacos",
+                    "description": "Tuna, Yellowtail, Salmon, Shrimp, Cucumber, Avocado, Jalapeno",
+                    "price": 9.0
+                },
+                {
+                    "title": "Sushi Sampler",
+                    "description": "Chef's Choice of 5 Nigiri Pieces",
+                    "price": 13.0
+                },
+                {
+                    "title": "Sashimi Sampler",
+                    "description": "Chef's Choice of Eight Sashimi Pieces",
+                    "price": 9.0
+                },
+                {
+                    "title": "Wild TarTar",
+                    "description": "Either Spicy Tuna, Spicy Salmon, or two of Each TarTar Stacked atop a Crispy Wonton",
+                    "price": 7.0
+                }
+            ]
+        },
+        "section_01": {
+            "title": "Salads",
+            "content": [
+                {
+                    "title": "Cucumber Salad",
+                    "description": "Cucumber, Sunomono Dressing, Beets",
+                    "price": 4.0
+                },
+                {
+                    "title": "Seaweed Salad",
+                    "description": "Marinated Seaweed, Cucumber, Sunomono Dressing",
+                    "price": 6.0
+                },
+                {
+                    "title": "House Salad",
+                    "description": "Mixed Greens, Carrot, Ginger Dressing",
+                    "price": 5.0
+                },
+                {
+                    "title": "Calamari Salad",
+                    "description": "Seasoned Squid over Fresh Pickle with Sunomono Dressing",
+                    "price": 6.0
+                },
+                {
+                    "title": "Moriawase Salad",
+                    "description": "Raw Fish with Poke Sauce over Lettuce, Radish, Avovcado, Beet, & Almonds",
+                    "price": 10.0
+                }
+            ]
+        },
+        "section_02": {
+            "title": "Classic Rolls",
+            "content": [
+                {
+                    "title": "California Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Philadelphia Roll",
+                    "price": 7.0
+                },
+                {
+                    "title": "Tuna Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Salmon Roll",
+                    "price": 5.0
+                }
+            ]
+        },
+        "section_03": {
+            "title": "Classic Rolls",
+            "content": [
+                {
+                    "title": "California Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Philadelphia Roll",
+                    "price": 7.0
+                },
+                {
+                    "title": "Tuna Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Salmon Roll",
+                    "price": 5.0
+                }
+            ]
+        },
+        "section_04": {
+            "title": "Classic Rolls",
+            "content": [
+                {
+                    "title": "California Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Philadelphia Roll",
+                    "price": 7.0
+                },
+                {
+                    "title": "Tuna Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Salmon Roll",
+                    "price": 5.0
+                }
+            ]
+        },
+        "section_05": {
+            "title": "Classic Rolls",
+            "content": [
+                {
+                    "title": "California Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Philadelphia Roll",
+                    "price": 7.0
+                },
+                {
+                    "title": "Tuna Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Salmon Roll",
+                    "price": 5.0
+                }
+            ]
+        },
+        "section_06": {
+            "title": "Classic Rolls",
+            "content": [
+                {
+                    "title": "California Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Philadelphia Roll",
+                    "price": 7.0
+                },
+                {
+                    "title": "Tuna Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Salmon Roll",
+                    "price": 5.0
+                }
+            ]
+        },
+        "section_07": {
+            "title": "Classic Rolls",
+            "content": [
+                {
+                    "title": "California Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Philadelphia Roll",
+                    "price": 7.0
+                },
+                {
+                    "title": "Tuna Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Salmon Roll",
+                    "price": 5.0
+                }
+            ]
+        },
+        "section_08": {
+            "title": "Classic Rolls",
+            "content": [
+                {
+                    "title": "California Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Philadelphia Roll",
+                    "price": 7.0
+                },
+                {
+                    "title": "Tuna Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Salmon Roll",
+                    "price": 5.0
+                }
+            ]
+        }
     },
     "contact": {
         "address": "1406 W Grand Ave, Chicago, IL 60642"

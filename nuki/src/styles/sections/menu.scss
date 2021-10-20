@@ -1,0 +1,21 @@
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    ul {
+        margin-bottom: 2rem;
+    }
+    li {
+        margin-bottom: 1rem;
+    }
+    strong {
+        display: block;
+    }
+    .description {
+        display: block;
+        font-size: 0.8rem;
+    }
+    .price {
+        display: block;
+        font-size: 1.5rem;
+    }
+}
