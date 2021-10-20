@@ -39,12 +39,14 @@ function App() {
             {isloading ? (
                 "loading"
             ) : (
-                <main class="container">
+                <main>
                     <Header data={data.meta} />
-                    <Hero data={data.hero} />
-                    <About data={data.about} />
-                    <Menu data={data.menu} />
-                    <Contact data={data.contact} />
+                    <div class="container">
+                        <Hero data={data.hero} />
+                        <About data={data.about} />
+                        <Menu data={data.menu} />
+                        <Contact data={data.contact} />
+                    </div>
                 </main>
             )}
         </>

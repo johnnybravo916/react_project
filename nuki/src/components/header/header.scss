@@ -1,7 +1,10 @@
 header {
     padding: 2rem 2rem;
-    position: sticky;
+    position: fixed;
     display: flex;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
     justify-content: space-between;
     nav {
         margin-left: auto;
