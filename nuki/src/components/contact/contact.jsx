@@ -18,14 +18,18 @@ export default function Contact(props) {
                         );
                     })}
                 </ul>
-                <a
-                    href={props.data.address_link}
-                    title={props.data.address}
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <address>{props.data.address}</address>
-                </a>
+
+                <address>
+                    email phone number
+                    <a
+                        href={props.data.address_link}
+                        title={props.data.address}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        {props.data.address}
+                    </a>
+                </address>
             </div>
         </section>
     );
