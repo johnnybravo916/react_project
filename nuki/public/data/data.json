@@ -340,7 +340,45 @@
             ]
         }
     },
+    "delivery": {
+        "title": "Delivery",
+        "subheader": "We're also available on DoorDash or Slice. Just click the links below."
+    },
     "contact": {
-        "address": "1406 W Grand Ave, Chicago, IL 60642"
+        "title": "Visit Us",
+        "subheader": "Hours might differ",
+        "hours": [
+            {
+                "day": "Sunday",
+                "time": "Closed"
+            },
+            {
+                "day": "Monday",
+                "time": "4-9pm"
+            },
+            {
+                "day": "Tuesday",
+                "time": "4-9pm"
+            },
+            {
+                "day": "Wednesday",
+                "time": "4-9pm"
+            },
+            {
+                "day": "Thursday",
+                "time": "4-9pm"
+            },
+            {
+                "day": "Friday",
+                "time": "4-10pm"
+            },
+            {
+                "day": "Saturday",
+                "time": "4-10pm"
+            }
+        ],
+        "phone": "(312) 877-5315",
+        "address": "1406 W Grand Ave, Chicago, IL 60642",
+        "address_link": "https://goo.gl/maps/H5QdGECrb8rSai7M6"
     }
 }
