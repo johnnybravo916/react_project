@@ -106,11 +106,71 @@
                 {
                     "title": "Salmon Roll",
                     "price": 5.0
+                },
+                {
+                    "title": "Unagi Cucumber Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Unagi Avocado Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Unagi Mango Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Salmon Mango Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Yellowtail Scallion Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Yellowtail Jalapeno Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Salmon Avacado Roll",
+                    "price": 5.0
+                },
+                {
+                    "title": "Tuna Avocado Roll",
+                    "price": 7.0
+                },
+                {
+                    "title": "Super White Tuna Avocado Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Shrimp Tempura Roll",
+                    "price": 7.0
+                },
+                {
+                    "title": "Spicy Salmon Roll",
+                    "price": 6.0
+                },
+                {
+                    "title": "Spicy Tuna Roll",
+                    "price": 7.0
+                },
+                {
+                    "title": "Spicy Scallop Roll",
+                    "price": 8.0
+                },
+                {
+                    "title": "Spicy Octopus Roll",
+                    "price": 7.0
+                },
+                {
+                    "title": "Spicy Shrimp",
+                    "price": 6.0
                 }
             ]
         },
         "section_03": {
-            "title": "Classic Rolls",
+            "title": "Specialty Rolls",
             "content": [
                 {
                     "title": "California Roll",
@@ -131,7 +191,7 @@
             ]
         },
         "section_04": {
-            "title": "Classic Rolls",
+            "title": "Vegetable Rolls",
             "content": [
                 {
                     "title": "California Roll",
@@ -152,7 +212,7 @@
             ]
         },
         "section_05": {
-            "title": "Classic Rolls",
+            "title": "Vegetable Specialty Rolls",
             "content": [
                 {
                     "title": "California Roll",
@@ -173,7 +233,7 @@
             ]
         },
         "section_06": {
-            "title": "Classic Rolls",
+            "title": "A La Carte (2 Pieces Per Order: Nigiri or Sashimi)",
             "content": [
                 {
                     "title": "California Roll",
@@ -194,7 +254,7 @@
             ]
         },
         "section_07": {
-            "title": "Classic Rolls",
+            "title": "Sushi Advance",
             "content": [
                 {
                     "title": "California Roll",
@@ -215,23 +275,46 @@
             ]
         },
         "section_08": {
-            "title": "Classic Rolls",
+            "title": "Sushi Entrees",
             "content": [
                 {
-                    "title": "California Roll",
-                    "price": 6.0
+                    "title": "Sushi Deluxe",
+                    "description": "A Dragon Roll & Five Pieces of Nigiri",
+                    "price": 23.0
                 },
                 {
-                    "title": "Philadelphia Roll",
+                    "title": "Sushi Supreme",
+                    "description": "A Dragon Roll, Rainbow Roll, & Ten Pieces of Nigiri",
+                    "price": 46.0
+                },
+                {
+                    "title": "Sashimi Moriwase",
+                    "description": "Four Pieces of Tuna, Four Pieces of Salmon, Three pieces of Yellowtail, Three Pieces of White Fish, & Two Pieces of Octopus",
+                    "price": 23.0
+                },
+                {
+                    "title": "Chirashi",
+                    "description": "Assorted Fish, Sushi Rice, & Pickled Japanese Veggies",
+                    "price": 23.0
+                }
+            ]
+        },
+        "section_09": {
+            "title": "Kid's Menu",
+            "content": [
+                {
+                    "title": "Chicken Tenders",
+                    "description": "Comes With Fries",
                     "price": 7.0
                 },
                 {
-                    "title": "Tuna Roll",
-                    "price": 6.0
+                    "title": "Fries",
+                    "description": "Waffle or Classic",
+                    "price": 3.5
                 },
                 {
-                    "title": "Salmon Roll",
-                    "price": 5.0
+                    "title": "Mozzarella Sticks",
+                    "price": 6.0
                 }
             ]
         }
