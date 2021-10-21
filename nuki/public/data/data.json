@@ -302,20 +302,39 @@
             "title": "Sushi Advance",
             "content": [
                 {
-                    "title": "California Roll",
-                    "price": 6.0
+                    "title": "Tuna Tataki",
+                    "description": "Seared Tuna, Citrus Vinaigrette, Shredded Radish, Micro Greens, Ponzu Sauce",
+                    "price": 14.0
                 },
                 {
-                    "title": "Philadelphia Roll",
-                    "price": 7.0
+                    "title": "Salmon Mania",
+                    "description": "Fresh Salmon wrapped with Spicy Salmon and Micro Greens, Red Tobiko Topping and Honey Miso",
+                    "price": 14.0
                 },
                 {
-                    "title": "Tuna Roll",
-                    "price": 6.0
+                    "title": "Yellowtail Jalapeno",
+                    "description": "Sashimi Style Yellowtail, Spicy Tang, Cilantro, and Bean Sprouts",
+                    "price": 14.0
                 },
                 {
-                    "title": "Salmon Roll",
-                    "price": 5.0
+                    "title": "Spicy Lettuce Wrap",
+                    "description": "Spicy Tuna or Salmon, Crisp Lettuce, Avocado, Micro-Greens, and Crunch",
+                    "price": 8.0
+                },
+                {
+                    "title": "Green in Hearth",
+                    "description": "Rolled in Black Rice, Green Soy Paper, Spring Mix, Asparagus, Salmon, Cilantro, and Mango",
+                    "price": 15.0
+                },
+                {
+                    "title": "Sweet Onion Salmon",
+                    "description": "Sweet Marinated Onions over Salmon with Micro Greens",
+                    "price": 12.0
+                },
+                {
+                    "title": "Tuna Bites",
+                    "description": "Serrano-Miso Crab, Avocado & Oshinko Wrapped in Tuna with Red Tobiko and Unagi Sauce Drizzle",
+                    "price": 14.0
                 }
             ]
         },
@@ -335,7 +354,7 @@
                 {
                     "title": "Sashimi Moriwase",
                     "description": "Four Pieces of Tuna, Four Pieces of Salmon, Three pieces of Yellowtail, Three Pieces of White Fish, & Two Pieces of Octopus",
-                    "price": 23.0
+                    "price": 33.0
                 },
                 {
                     "title": "Chirashi",
