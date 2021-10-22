@@ -8,6 +8,7 @@ import Menu from "./components/menu/menu";
 import Delivery from "./components/delivery/delivery";
 import About from "./components/about/about";
 import Contact from "./components/contact/contact";
+import Footer from "./components/footer/footer";
 
 function App() {
     const [isloading, setIsLoading] = useState(true);
@@ -48,6 +49,7 @@ function App() {
                         <Menu data={data.menu} />
                         <Delivery data={data.delivery} />
                         <Contact data={data.contact} />
+                        <Footer />
                     </div>
                 </main>
             )}
