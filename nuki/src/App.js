@@ -5,6 +5,7 @@ import "./App.css";
 import Header from "./components/header/header";
 import Hero from "./components/hero/hero";
 import Menu from "./components/menu/menu";
+import Delivery from "./components/delivery/delivery";
 import About from "./components/about/about";
 import Contact from "./components/contact/contact";
 
@@ -45,6 +46,7 @@ function App() {
                         <Hero data={data.hero} />
                         <About data={data.about} />
                         <Menu data={data.menu} />
+                        <Delivery data={data.delivery} />
                         <Contact data={data.contact} />
                     </div>
                 </main>
