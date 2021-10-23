@@ -2,10 +2,7 @@ import React from "react";
 
 export default function Contact(props) {
     return (
-        <section
-            id="contact"
-            className="border-top border-bottom center-content"
-        >
+        <section id="contact" className="border-top center-content">
             <div className="contact">
                 <h2>{props.data.title}</h2>
                 <h3>{props.data.subheader}</h3>

@@ -1,7 +1,6 @@
 import React from "react";
-import "./header.scss";
 
-import Navigation from "../navigation/navigation";
+import Navigation from "./navigation";
 
 export default function Header(props) {
     return (
