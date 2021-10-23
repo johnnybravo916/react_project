@@ -1,7 +1,7 @@
 {
     "meta": {
         "title": "Nuki Sushi Restaurant",
-        "description": "TO DO"
+        "description": ""
     },
     "hero": {
         "header": "Welcome",
@@ -213,10 +213,70 @@
                     "price": 15.0
                 },
                 {
-                    "title":"",
-                    "description":"",
-                    "price":
+                    "title": "Zesty Islander",
+                    "description": "Spicy Crab, Scallion, Jalapeno, Avocado, Salmon, Thin Lemon Slices, Tangy Sweet Peppers, & Lime Zest Garnish",
+                    "price": 15.0
                 },
+                {
+                    "title": "River Beast",
+                    "description": "Rolled in Black Rice, White Fish, Cilantro, Mango, Avocado, Two Seared Shisito Peppers, Spicy Salmon, Spicy Shrimp, ...More",
+                    "price": 15.0
+                },
+                {
+                    "title": "Black Monster",
+                    "description": "Rolled in Black Rice, Shrimp Tempura, Avocado, Cream Cheese, Spicy Unagi/Wasabi/Mayo Sauce & Spicy Crunch Garnish",
+                    "price": 14.0
+                },
+                {
+                    "title": "Pink Flower",
+                    "description": "Tuna, Salmon, Super White Tuna, Asparagus, Avocado, Pink Soy Paper, & Tobiko Honey Miso Garnish",
+                    "price": 15.0
+                },
+                {
+                    "title": "Mafia",
+                    "description": "Rolled in Black Rice, Spicy Tuna, Cucumber, Avocado & Tuna Topping, With a House Mayo and Tobiko Garnish",
+                    "price": 14.0
+                },
+                {
+                    "title": "Rainbow",
+                    "description": "California Roll, Tuna, Shrimp, Salmon, White Tuna, Avocado Tobiko & House Mayo Garnish",
+                    "price": 14.0
+                },
+                {
+                    "title": "Spicy Tataki",
+                    "description": "Crab Stick, Cucumber, Tempura Crunch, Unagi Sauce, & Seared Tuna Topping",
+                    "price": 15.0
+                },
+                {
+                    "title": "Dragon",
+                    "description": "Tempura Fried Shrimp, Crab Stick, Cucumber, Unagi Avocado & Tobiko Topping",
+                    "price": 14.0
+                },
+                {
+                    "title": "Caribbean",
+                    "description": "Crab Mix and Cucumber Topped with Shrimp, Avocado, Scallions, and Wasabi mayo; then Garnished with Glossy Red Tobiko",
+                    "price": 12.0
+                },
+                {
+                    "title": "Crabby Crab",
+                    "description": "Delicate Flavor of Soft Shell Crab, Steamed Asparagus, and House Mayo with Jalapeno, Draped with Crab Mix; ...More",
+                    "price": 15.0
+                },
+                {
+                    "title": "Turtle",
+                    "description": "Unagi, Avocado, and Crunch Draped with Shrimp, Wasabi Mayo, and Unagi Sauce with Tobiko on Top",
+                    "price": 16.0
+                },
+                {
+                    "title": "Alaska",
+                    "description": "Salmon, Cucumber, and Avocado Topped with Crab Mix, Drizzled with Spicy Mayo, and Topped with Yellow Tobiko",
+                    "price": 14.0
+                },
+                {
+                    "title": "Summer",
+                    "description": "Tuna, White Fish, Asparagus, Avocado, and House Mayo, Draped with Spicy Salmon; then Topped with Homemade Pico de Gallo",
+                    "price": 15.0
+                }
             ]
         },
         "section_04": {
@@ -281,19 +341,83 @@
             "title": "A La Carte (2 Pieces Per Order: Nigiri or Sashimi)",
             "content": [
                 {
-                    "title": "California Roll",
-                    "price": 6.0
-                },
-                {
-                    "title": "Philadelphia Roll",
+                    "title": "Tuna",
+                    "description": "Maguro",
                     "price": 7.0
                 },
                 {
-                    "title": "Tuna Roll",
+                    "title": "Octupus",
+                    "description": "Tako",
                     "price": 6.0
                 },
                 {
-                    "title": "Salmon Roll",
+                    "title": "Yellowtail",
+                    "description": "Hamachi",
+                    "price": 6.0
+                },
+                {
+                    "title": "Shrimp",
+                    "description": "Ebi",
+                    "price": 5.0
+                },
+                {
+                    "title": "Sea Bream",
+                    "description": "Madai",
+                    "price": 7.0
+                },
+                {
+                    "title": "Sweet Shrimp",
+                    "description": "Ama Ebi",
+                    "price": 8.0
+                },
+                {
+                    "title": "Salmon",
+                    "description": "Sake",
+                    "price": 6.0
+                },
+                {
+                    "title": "Smoked Salmon",
+                    "description": "Smoked Sake",
+                    "price": 6.0
+                },
+                {
+                    "title": "Scallop",
+                    "description": "Hotate",
+                    "price": 7.0
+                },
+                {
+                    "title": "Freshwater Eel",
+                    "description": "Unagi",
+                    "price": 6.0
+                },
+                {
+                    "title": "Mackerel",
+                    "description": "Saba",
+                    "price": 5.0
+                },
+                {
+                    "title": "Flying Fish Roe",
+                    "description": "Tobiko",
+                    "price": 6.0
+                },
+                {
+                    "title": "Super White Tuna",
+                    "description": "Escolar",
+                    "price": 6.0
+                },
+                {
+                    "title": "Salmon Roe",
+                    "description": "Ikura",
+                    "price": 8.0
+                },
+                {
+                    "title": "Striped Bass",
+                    "description": "Suzuki",
+                    "price": 6.0
+                },
+                {
+                    "title": "Sweet Egg",
+                    "description": "Tomago",
                     "price": 5.0
                 }
             ]
