@@ -3,6 +3,10 @@
         "title": "Nuki Sushi Restaurant",
         "description": "TO DO"
     },
+    "social": {
+        "facebook": "https://www.facebook.com/nuki.sushi.restaurant",
+        "instagram": "link"
+    },
     "hero": {
         "header": "Welcome",
         "subheader": "The place to be for sushi"
@@ -211,12 +215,7 @@
                     "title": "Karma",
                     "description": "Rolled in Black Rice, Spicy Yellowtail, Cilantro, Avocado, Yellowtail Topping, Chili Ponzu Sauce, Crispy Onions, & Scallions",
                     "price": 15.0
-                },
-                {
-                    "title":"",
-                    "description":"",
-                    "price":
-                },
+                }
             ]
         },
         "section_04": {
