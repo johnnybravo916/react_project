@@ -2,11 +2,13 @@ import React, {useEffect, useState} from "react";
 import "./styles/app.scss";
 import "./App.css";
 
-import Header from "./components/header/header";
-import Hero from "./components/hero/hero";
-import Menu from "./components/menu/menu";
-import About from "./components/about/about";
-import Contact from "./components/contact/contact";
+import Header from "./components/header";
+import Hero from "./components/hero";
+import Menu from "./components/menu";
+import Delivery from "./components/delivery";
+import About from "./components/about";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 function App() {
     const [isloading, setIsLoading] = useState(true);
@@ -45,8 +47,10 @@ function App() {
                         <Hero data={data.hero} />
                         <About data={data.about} />
                         <Menu data={data.menu} />
+                        <Delivery data={data.delivery} />
                         <Contact data={data.contact} />
                     </div>
+                    <Footer data={data.meta} social={data.social} />
                 </main>
             )}
         </>
