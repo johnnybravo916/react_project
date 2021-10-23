@@ -1,0 +1,13 @@
+footer {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    li {
+        display: inline;
+    }
+    li a {
+        display: inline-block;
+        margin-left: 10px;
+    }
+}

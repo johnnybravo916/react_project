@@ -3,6 +3,10 @@
         "title": "Nuki Sushi Restaurant",
         "description": "TO DO"
     },
+    "social": {
+        "facebook": "https://www.facebook.com/nuki.sushi.restaurant",
+        "instagram": "link"
+    },
     "hero": {
         "header": "Welcome",
         "subheader": "The place to be for sushi"
