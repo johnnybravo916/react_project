@@ -19,7 +19,9 @@ function Footer(props) {
                             <a
                                 href={props.social.facebook}
                                 title="Like us on Facebook"
+                                alt="Like us on Facebook"
                                 rel="noreferrer"
+                                className="social--facebook"
                                 target="_blank"
                             >
                                 Facebook
@@ -29,7 +31,9 @@ function Footer(props) {
                             <a
                                 href={props.social.instagram}
                                 title="Follow us on Instagram"
+                                alt="Follow us on Instagram"
                                 rel="noreferrer"
+                                className="social--instagram"
                                 target="_blank"
                             >
                                 Instagram
