@@ -53,8 +53,8 @@ function App() {
             ) : (
                 <main>
                     <Header data={data.meta} />
+                    <Hero data={data.hero} />
                     <div class="container">
-                        <Hero data={data.hero} />
                         <About data={data.about} />
                         <Menu data={data.menu} />
                         <Delivery data={data.delivery} />
