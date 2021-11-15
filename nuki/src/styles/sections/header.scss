@@ -15,11 +15,52 @@ header {
         max-width: 100px;
     }
     nav {
-        margin-left: auto;
         a {
             color: var(--col-font-black);
             text-decoration: none;
             cursor: pointer;
+            display: block;
+        }
+    }
+    .menu-desktop {
+        display: flex;
+        align-items: flex-end;
+        &.js-inactive {
+            display: none;
+        }
+    }
+    .menu-responsive {
+        display: none;
+        position: absolute;
+        top: 15px;
+        right: 5px;
+        z-index: -1;
+        background: var(--secondary-color);
+        padding: 3.5rem 2rem 2rem;
+        border-radius: 1rem;
+        align-items: flex-end;
+        a {
+            color: var(--col-font-white);
+        }
+        &.js-active {
+            display: block;
+        }
+    }
+    .bttn--menu {
+        display: none;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        font-weight: var(--font-weight-light);
+        text-transform: uppercase;
+        padding: 0.2rem 0.5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        background: #000;
+        letter-spacing: 2px;
+        color: var(--col-font-white);
+        &.js-active {
+            display: block;
         }
     }
 }

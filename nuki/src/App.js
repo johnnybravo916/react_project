@@ -14,16 +14,6 @@ function App() {
     const [isloading, setIsLoading] = useState(true);
     const [data, setData] = useState({});
 
-    window.onscroll = function() {
-        let currentScrollPos = window.pageYOffset;
-        const navmenu = document.querySelector("nav");
-        if (currentScrollPos > 100) {
-            navmenu.style.display = "none";
-        } else {
-            navmenu.style.display = "block";
-        }
-    }
-
     function getData() {
         fetch("./data/data.json")
             .then((response) => {
