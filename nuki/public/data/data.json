@@ -513,7 +513,14 @@
     },
     "delivery": {
         "title": "Delivery",
-        "subheader": "We're also available on DoorDash or Slice. Just click the links below."
+        "reservation_copy": "Visit us and reserve a",
+        "reservation_link_copy": "table",
+        "opentable": "OpenTable",
+        "opentable_link": "https://www.opentable.com/restref/client/?restref=121283&lang=en-US&ot_source=Restaurant%20website&corrid=5f8a5feb-5784-4457-8a74-72a94e4bb8a9",
+        "delivery_copy": "Prefer to stay at home? We also have",
+        "delivery_link_copy": "pickup and delivery",
+        "delivery": "Delivery",
+        "delivery_link": "https://eat.9fold.me/index.html?fbclid=IwAR0riWHRX-O4SE4PqPu1PGGUHJJe-QRA-4fhrXSBwfnqDqJ2nFkMSfizsIE#/11747"
     },
     "contact": {
         "title": "Visit Us",
@@ -549,6 +556,9 @@
             }
         ],
         "phone": "(312) 877-5315",
+        "phone_link": "tel:3122852481",
+        "email": "Nukiemail",
+        "email_link": "mailto:nuki@gmail.com",
         "address": "1406 W Grand Ave, Chicago, IL 60642",
         "address_link": "https://goo.gl/maps/H5QdGECrb8rSai7M6"
     }

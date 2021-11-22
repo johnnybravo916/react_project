@@ -1,6 +1,8 @@
 .menu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    .menu__content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
     .menu__nav {
         button {
             display: block;
@@ -9,9 +11,12 @@
             cursor: pointer;
             &.active h3 {
                 padding-left: 1rem;
-                color: red;
+                color: var(--secondary-color);
             }
         }
+    }
+    @include m-up {
+        --font-size: 1.5rem;
     }
     ul {
         margin-bottom: 2rem;

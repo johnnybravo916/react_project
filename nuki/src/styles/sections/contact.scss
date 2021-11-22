@@ -1,0 +1,10 @@
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    a {
+        display: block;
+        color: var(--col-font-black);
+        font-style: normal;
+        text-decoration: none;
+    }
+}
