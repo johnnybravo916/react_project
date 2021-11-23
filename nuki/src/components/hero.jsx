@@ -1,4 +1,5 @@
 import React from "react";
+import Promo from "./promo";
 
 export default function Hero(props) {
     let images = [1, 2, 3];
@@ -21,6 +22,7 @@ export default function Hero(props) {
                         {props.data.link_content}
                     </a>
                 </h2>
+                <Promo promo={props.promo} />
             </div>
             <img
                 src={`./images/background-${images[0]}.jpg`}

@@ -35,7 +35,7 @@ export default function Contact(props) {
                 <ul>
                     {Object.entries(props.data.hours).map(([v, i]) => {
                         return (
-                            <li>
+                            <li key={i}>
                                 {i.day} - {i.time}
                             </li>
                         );

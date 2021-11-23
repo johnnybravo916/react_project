@@ -7,6 +7,10 @@
         "facebook": "https://www.facebook.com/nuki.sushi.restaurant",
         "instagram": "https://www.instagram.com/nuki_sushi_restaurant/"
     },
+    "promo": {
+        "isActive": false,
+        "slogan": "This is the current promo"
+    },
     "navigation": {
         "menu": [
             {

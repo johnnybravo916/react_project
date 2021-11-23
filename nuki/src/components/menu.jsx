@@ -12,6 +12,7 @@ export default function Menu(props) {
                         {Object.entries(props.data).map(([key, value]) => {
                             return (
                                 <button
+                                    key={key}
                                     onClick={() => setCurrentTab(value.title)}
                                     className={
                                         value.title === currentTab
@@ -27,7 +28,7 @@ export default function Menu(props) {
                     <div className="menu__food">
                         {Object.entries(props.data).map(([key, value]) => {
                             return (
-                                <div className="tab-content">
+                                <div key={key} className="tab-content">
                                     <ul>
                                         {Object.values(value.content).map(
                                             (v, i) => {
@@ -35,7 +36,7 @@ export default function Menu(props) {
                                                     value.title === currentTab
                                                 ) {
                                                     return (
-                                                        <li>
+                                                        <li key={i}>
                                                             <strong>
                                                                 {v.title}
                                                             </strong>
