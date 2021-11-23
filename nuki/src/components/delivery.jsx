@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Delivery(props) {
     return (
-        <section id="delivery" className="border-top center-content">
+        <section id="delivery" className="center-content">
             <div class="delivery">
                 <h2>{props.data.title}</h2>
                 <h3>{props.data.subheader}</h3>

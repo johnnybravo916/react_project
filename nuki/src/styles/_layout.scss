@@ -16,7 +16,9 @@ body {
 }
 
 a,
-a:after {
+a:after,
+button,
+h3 {
     transition: all 500ms ease-in-out;
 }
 

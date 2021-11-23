@@ -6,7 +6,7 @@ export default function Menu(props) {
     return (
         <section>
             <div id="menu" className="menu">
-                <h2>Menu</h2>
+                <h2>{props.title}</h2>
                 <div className="menu__content">
                     <div className="menu__nav">
                         {Object.entries(props.data).map(([key, value]) => {

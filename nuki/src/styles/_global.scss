@@ -53,8 +53,9 @@ section {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-a {
-    cursor: default;
+a,
+button {
+    cursor: pointer;
 }
 .kicker {
     color: var(--col-font-red);

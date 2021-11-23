@@ -7,6 +7,22 @@
         "facebook": "https://www.facebook.com/nuki.sushi.restaurant",
         "instagram": "https://www.instagram.com/nuki_sushi_restaurant/"
     },
+    "navigation": {
+        "menu": [
+            {
+                "title": "home",
+                "link": "#home"
+            },
+            {
+                "title": "hello",
+                "link": "#hello"
+            },
+            {
+                "title": "eat",
+                "link": "#eat"
+            }
+        ]
+    },
     "hero": {
         "kicker": "Nuki Sushi Restaurant",
         "header": "Welcome",
@@ -18,6 +34,7 @@
         "title": "Our Story",
         "content": "Nuki Sushi Restaurant is the second venture from the owners of Raiz Kitchen & Sushi. We offer a myriad of specialty rolls that have been crafted by our chef's over the course of the 30 years that they've been in the sushi industry. Our cuisine can be delivered to you for your convenience or can be enjoyed in our intimate dining rooms where you are free to bring your own alcohol."
     },
+    "menu_title": "Our Food",
     "menu": {
         "section_00": {
             "title": "Starters",
