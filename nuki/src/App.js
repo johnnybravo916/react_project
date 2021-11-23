@@ -39,7 +39,6 @@ function App() {
 
     return (
         <>
-            <Cursor />
             {isloading ? (
                 "loading"
             ) : (
@@ -53,6 +52,7 @@ function App() {
                         <Contact data={data.contact} />
                     </div>
                     <Footer data={data.meta} social={data.social} />
+                    <Cursor />
                 </main>
             )}
         </>

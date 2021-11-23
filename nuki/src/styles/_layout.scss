@@ -4,7 +4,7 @@ html {
 
 body {
     font: normal 1rem/1.5 "Urbanist", sans-serif;
-    text-align: center;
+    background-color: var(--bg-color);
 }
 
 .container {
@@ -15,15 +15,21 @@ body {
     padding-right: 1rem;
 }
 
+a,
+a:after {
+    transition: all 500ms ease-in-out;
+}
+
 .cursor {
     background: var(--secondary-color);
-    width: 1rem;
-    height: 1rem;
+    width: 0.5rem;
+    height: 0.5rem;
     border: 1px solid var(--secondary-color);
     border-radius: 100%;
     position: fixed;
     transform: translate (-50%, -50%);
     transition: all 200ms ease;
+    z-index: -1;
 }
 
 .cursor--hidden {
@@ -31,6 +37,6 @@ body {
 }
 
 .cursor--hover {
-    transform: translate(-50%, -50%) scale(1.5);
+    transform: translate(-50%, -50%) scale(2.5);
     background: rgba(var(--secondary-color), 0);
 }

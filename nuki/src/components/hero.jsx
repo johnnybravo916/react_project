@@ -7,8 +7,20 @@ export default function Hero(props) {
     return (
         <section id="hero" className="hero">
             <div className="container">
+                <strong>{props.data.kicker}</strong>
                 <h1>{props.data.header}</h1>
-                <h2>{props.data.subheader}</h2>
+                <h2>
+                    {props.data.subheader}{" "}
+                    <a
+                        href={props.data.link}
+                        title={props.data.link_content}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="hover"
+                    >
+                        {props.data.link_content}
+                    </a>
+                </h2>
             </div>
             <img
                 src={`./images/background-${images[0]}.jpg`}

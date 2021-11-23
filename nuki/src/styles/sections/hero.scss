@@ -3,6 +3,13 @@
     text-align: left;
     min-height: 100vh;
     padding-top: 20vh;
+    strong {
+        text-transform: uppercase;
+        font-weight: var(--font-weight-medium);
+    }
+    h1 {
+        line-height: 1;
+    }
     h2 {
         --font-size: 1rem;
         margin-bottom: 4rem;
@@ -13,7 +20,7 @@
             --font-size: 1.5rem;
         }
         @include l-up {
-            --font-size: 2rem;
+            --font-size: 1.5rem;
         }
     }
     img {

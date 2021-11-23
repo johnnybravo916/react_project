@@ -56,3 +56,25 @@ section {
 a {
     cursor: default;
 }
+.hover {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--col-font-red);
+    cursor: pointer;
+    position: relative;
+    padding: 0 5px;
+    &:after {
+        content: "";
+        display: block;
+        background: var(--plain-color);
+        width: 0;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    &:hover:after {
+        width: 100%;
+    }
+}

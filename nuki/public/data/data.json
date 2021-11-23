@@ -8,8 +8,11 @@
         "instagram": "https://www.instagram.com/nuki_sushi_restaurant/"
     },
     "hero": {
+        "kicker": "Nuki Sushi Restaurant",
         "header": "Welcome",
-        "subheader": "The place to be for sushi"
+        "subheader": "Reserve a table via",
+        "link_content": "OpenTable",
+        "link": "https://www.opentable.com/restref/client/?restref=121283&lang=en-US&ot_source=Restaurant%20website&corrid=50d860ef-aa3c-4733-9b00-cb6b0bd97db5"
     },
     "about": {
         "title": "Hello",
