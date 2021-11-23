@@ -532,7 +532,8 @@
         }
     },
     "delivery": {
-        "title": "Delivery",
+        "first_title": "Reserve a table",
+        "second_title": "Or have Pickup/Delivery",
         "reservation_copy": "Visit us and reserve a",
         "reservation_link_copy": "table",
         "opentable": "OpenTable",

@@ -1,0 +1,10 @@
+.delivery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .delivery__content {
+        font-size: 1.2rem;
+        a {
+            text-decoration: none;
+        }
+    }
+}
