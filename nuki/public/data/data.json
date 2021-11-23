@@ -1,7 +1,7 @@
 {
     "meta": {
         "title": "Nuki Sushi Restaurant",
-        "description": ""
+        "description": "https://www.magnetism.fr/en/projects"
     },
     "social": {
         "facebook": "https://www.facebook.com/nuki.sushi.restaurant",
@@ -15,7 +15,7 @@
         "link": "https://www.opentable.com/restref/client/?restref=121283&lang=en-US&ot_source=Restaurant%20website&corrid=50d860ef-aa3c-4733-9b00-cb6b0bd97db5"
     },
     "about": {
-        "title": "Hello",
+        "title": "Our Story",
         "content": "Nuki Sushi Restaurant is the second venture from the owners of Raiz Kitchen & Sushi. We offer a myriad of specialty rolls that have been crafted by our chef's over the course of the 30 years that they've been in the sushi industry. Our cuisine can be delivered to you for your convenience or can be enjoyed in our intimate dining rooms where you are free to bring your own alcohol."
     },
     "menu": {

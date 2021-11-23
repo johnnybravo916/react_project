@@ -56,6 +56,12 @@ section {
 a {
     cursor: default;
 }
+.kicker {
+    color: var(--col-font-red);
+    display: block;
+    text-transform: uppercase;
+    font-weight: var(--font-weight-medium);
+}
 .hover {
     display: inline-block;
     text-decoration: none;
@@ -67,7 +73,7 @@ a {
         content: "";
         display: block;
         background: var(--plain-color);
-        width: 0;
+        width: 15%;
         height: 100%;
         position: absolute;
         top: 0;
@@ -76,5 +82,20 @@ a {
     }
     &:hover:after {
         width: 100%;
+    }
+}
+.header--bullet {
+    position: relative;
+    padding-left: 1rem;
+    font-size: 3rem;
+    &:before {
+        content: "";
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 100%;
+        background: var(--secondary-color);
+        position: absolute;
+        left: 0;
+        top: 2.2rem;
     }
 }

@@ -46,7 +46,7 @@ function App() {
                     <Header data={data.meta} />
                     <Hero data={data.hero} />
                     <div class="container">
-                        <About data={data.about} />
+                        <About data={data.about} title={data.meta.title} />
                         <Menu data={data.menu} />
                         <Delivery data={data.delivery} />
                         <Contact data={data.contact} />

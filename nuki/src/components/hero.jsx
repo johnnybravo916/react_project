@@ -7,7 +7,7 @@ export default function Hero(props) {
     return (
         <section id="hero" className="hero">
             <div className="container">
-                <strong>{props.data.kicker}</strong>
+                <strong className="kicker">{props.data.kicker}</strong>
                 <h1>{props.data.header}</h1>
                 <h2>
                     {props.data.subheader}{" "}
