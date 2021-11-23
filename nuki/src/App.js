@@ -9,6 +9,7 @@ import Delivery from "./components/delivery";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import Cursor from "./components/cursor";
 
 function App() {
     const [isloading, setIsLoading] = useState(true);
@@ -38,6 +39,7 @@ function App() {
 
     return (
         <>
+            <Cursor />
             {isloading ? (
                 "loading"
             ) : (

@@ -14,3 +14,23 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+.cursor {
+    background: var(--secondary-color);
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 100%;
+    position: fixed;
+    transform: translate (-50%, -50%);
+    transition: all 200ms ease;
+}
+
+.cursor--hidden {
+    opacity: 0;
+}
+
+.cursor--hover {
+    transform: translate(-50%, -50%) scale(1.5);
+    background: rgba(var(--secondary-color), 0);
+}
