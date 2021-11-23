@@ -1,10 +1,21 @@
 .contact {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5rem 0;
+    .branding {
+        font-size: 0;
+    }
+    .branding img {
+        max-width: 16rem;
+    }
     a {
         display: block;
         color: var(--col-font-black);
         font-style: normal;
         text-decoration: none;
+    }
+    h3 {
+        color: var(--col-font-red);
+        font-weight: var(--font-weight-medium);
     }
 }

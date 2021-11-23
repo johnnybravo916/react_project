@@ -545,7 +545,8 @@
     },
     "contact": {
         "title": "Visit Us",
-        "subheader": "Hours might differ",
+        "address_header": "Contact Information",
+        "hours_header": "Hours might differ",
         "hours": [
             {
                 "day": "Sunday",

@@ -49,7 +49,7 @@ function App() {
                         <About data={data.about} title={data.meta.title} />
                         <Menu data={data.menu} title={data.menu_title} />
                         <Delivery data={data.delivery} />
-                        <Contact data={data.contact} />
+                        <Contact data={data.contact} title={data.meta.title} />
                     </div>
                     <Footer data={data.meta} social={data.social} />
                     <Cursor />
