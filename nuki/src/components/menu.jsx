@@ -7,7 +7,7 @@ export default function Menu(props) {
         <section>
             <div id={props.link} className="menu">
                 <h2>{props.title}</h2>
-                <div className="menu__content">
+                <div className="menu__content grid-layout">
                     <div className="menu__nav">
                         {Object.entries(props.data).map(([key, value]) => {
                             return (

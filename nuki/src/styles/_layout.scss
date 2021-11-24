@@ -23,23 +23,11 @@ h3:after {
     transition: all 500ms ease-in-out;
 }
 
-.cursor {
-    background: var(--secondary-color);
-    width: 0.5rem;
-    height: 0.5rem;
-    border: 1px solid var(--secondary-color);
-    border-radius: 100%;
-    position: fixed;
-    transform: translate (-50%, -50%);
-    transition: all 200ms ease;
-    z-index: -1;
-}
-
-.cursor--hidden {
-    opacity: 0;
-}
-
-.cursor--hover {
-    transform: translate(-50%, -50%) scale(2.5);
-    background: rgba(var(--secondary-color), 0);
+.grid-layout {
+    display: grid;
+    --columns: 1;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    @include m-up {
+        --columns: 2;
+    }
 }

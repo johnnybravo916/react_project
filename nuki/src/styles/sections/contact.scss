@@ -1,6 +1,10 @@
 .contact {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    --columns: 1;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    @include m-up {
+        --columns: 3;
+    }
     padding: 5rem 0;
     .branding {
         font-size: 0;
@@ -17,5 +21,15 @@
     h3 {
         color: var(--col-font-red);
         font-weight: var(--font-weight-medium);
+    }
+    @include fsm-only {
+        .branding,
+        .contact__address,
+        .contact__hours {
+            text-align: center;
+        }
+        .contact__address {
+            margin-bottom: 2rem;
+        }
     }
 }
