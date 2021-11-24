@@ -6,7 +6,7 @@ export default function Hero(props) {
     images = images.sort(() => Math.random() - 0.5);
 
     return (
-        <section id="hero" className="hero">
+        <section id={props.link} className="hero">
             <div className="container">
                 <strong className="kicker">{props.data.kicker}</strong>
                 <h1>{props.data.header}</h1>

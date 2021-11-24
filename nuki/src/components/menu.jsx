@@ -5,7 +5,7 @@ export default function Menu(props) {
 
     return (
         <section>
-            <div id="menu" className="menu">
+            <div id={props.link} className="menu">
                 <h2>{props.title}</h2>
                 <div className="menu__content">
                     <div className="menu__nav">

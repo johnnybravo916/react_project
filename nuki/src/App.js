@@ -43,13 +43,32 @@ function App() {
                 "loading"
             ) : (
                 <main>
-                    <Header data={data.meta} />
-                    <Hero data={data.hero} promo={data.promo} />
+                    <Header data={data.meta} nav={data.navigation} />
+                    <Hero
+                        data={data.hero}
+                        promo={data.promo}
+                        link={data.navigation.menu[0].link}
+                    />
                     <div class="container">
-                        <About data={data.about} title={data.meta.title} />
-                        <Menu data={data.menu} title={data.menu_title} />
-                        <Delivery data={data.delivery} />
-                        <Contact data={data.contact} title={data.meta.title} />
+                        <About
+                            data={data.about}
+                            title={data.meta.title}
+                            link={data.navigation.menu[1].link}
+                        />
+                        <Menu
+                            data={data.menu}
+                            title={data.menu_title}
+                            link={data.navigation.menu[2].link}
+                        />
+                        <Delivery
+                            data={data.delivery}
+                            link={data.navigation.menu[3].link}
+                        />
+                        <Contact
+                            data={data.contact}
+                            title={data.meta.title}
+                            link={data.navigation.menu[4].link}
+                        />
                     </div>
                     <Footer data={data.meta} social={data.social} />
                     <Cursor />

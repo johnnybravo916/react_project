@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Delivery(props) {
     return (
-        <section id="delivery" className="delivery border-top border-bottom">
+        <section id={props.link} className="delivery border-top border-bottom">
             <h2 className="header--bullet">
                 {props.data.first_title}
                 <br />

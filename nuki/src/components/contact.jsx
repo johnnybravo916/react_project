@@ -3,7 +3,7 @@ import logo from "../assets/icons/branding-large.png";
 
 export default function Contact(props) {
     return (
-        <section id="contact" className="contact">
+        <section id={props.link} className="contact">
             <div className="contact__branding">
                 <h2 className="header--bullet">{props.data.title}</h2>
                 <a href="/" className="branding" title={props.title}>

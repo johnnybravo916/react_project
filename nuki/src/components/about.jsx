@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About(props) {
     return (
-        <section id="hello">
+        <section id={props.link}>
             <div className="about">
                 <strong className="kicker">{props.title}</strong>
                 <div className="about__content">

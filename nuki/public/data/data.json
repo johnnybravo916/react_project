@@ -15,30 +15,38 @@
         "menu": [
             {
                 "title": "home",
-                "link": "#home"
+                "link": "home"
             },
             {
-                "title": "hello",
-                "link": "#hello"
+                "title": "our story",
+                "link": "about"
             },
             {
-                "title": "eat",
-                "link": "#eat"
+                "title": "our food",
+                "link": "eat"
+            },
+            {
+                "title": "reservation/delivery",
+                "link": "reservation"
+            },
+            {
+                "title": "visit us",
+                "link": "contact"
             }
         ]
     },
     "hero": {
         "kicker": "Nuki Sushi Restaurant",
-        "header": "Welcome",
-        "subheader": "Reserve a table via",
+        "header": "welcome",
+        "subheader": "reserve a table via",
         "link_content": "OpenTable",
         "link": "https://www.opentable.com/restref/client/?restref=121283&lang=en-US&ot_source=Restaurant%20website&corrid=50d860ef-aa3c-4733-9b00-cb6b0bd97db5"
     },
     "about": {
-        "title": "Our Story",
+        "title": "our story",
         "content": "Nuki Sushi Restaurant is the second venture from the owners of Raiz Kitchen & Sushi. We offer a myriad of specialty rolls that have been crafted by our chef's over the course of the 30 years that they've been in the sushi industry. Our cuisine can be delivered to you for your convenience or can be enjoyed in our intimate dining rooms where you are free to bring your own alcohol."
     },
-    "menu_title": "Our Food",
+    "menu_title": "our food",
     "menu": {
         "section_00": {
             "title": "Starters",
@@ -536,21 +544,21 @@
         }
     },
     "delivery": {
-        "first_title": "Reserve a table",
-        "second_title": "Or have Pickup/Delivery",
+        "first_title": "reserve a table",
+        "second_title": "or have pickup/delivery",
         "reservation_copy": "Visit us and reserve a",
         "reservation_link_copy": "table",
         "opentable": "OpenTable",
         "opentable_link": "https://www.opentable.com/restref/client/?restref=121283&lang=en-US&ot_source=Restaurant%20website&corrid=5f8a5feb-5784-4457-8a74-72a94e4bb8a9",
         "delivery_copy": "Prefer to stay at home? We also have",
         "delivery_link_copy": "pickup and delivery",
-        "delivery": "Delivery",
+        "delivery": "delivery",
         "delivery_link": "https://eat.9fold.me/index.html?fbclid=IwAR0riWHRX-O4SE4PqPu1PGGUHJJe-QRA-4fhrXSBwfnqDqJ2nFkMSfizsIE#/11747"
     },
     "contact": {
-        "title": "Visit Us",
-        "address_header": "Contact Information",
-        "hours_header": "Hours might differ",
+        "title": "visit us",
+        "address_header": "contact information",
+        "hours_header": "hours might differ",
         "hours": [
             {
                 "day": "Sunday",

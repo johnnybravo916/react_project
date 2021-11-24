@@ -5,7 +5,7 @@ function Promo(props) {
 
     useEffect(() => {
         setPromo(props.promo.isActive);
-    }, []);
+    }, [props.promo.isActive]);
 
     return promo ? <h3>{props.promo.slogan}</h3> : null;
 }

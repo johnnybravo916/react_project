@@ -20,6 +20,11 @@ header {
             text-decoration: none;
             cursor: pointer;
             display: block;
+            position: relative;
+            left: 0;
+            &:hover {
+                left: 0.5rem;
+            }
         }
     }
     .menu-desktop {

@@ -39,7 +39,7 @@ export default function Header(props) {
                     showMainMenu ? null : "js-inactive"
                 }`}
             >
-                <Navigation title={props.data.title} />
+                <Navigation title={props.data.title} nav={props.nav} />
             </div>
             <strong
                 className={`js-menu bttn--menu ${
@@ -54,7 +54,7 @@ export default function Header(props) {
                     showMobileMenu ? "js-active" : null
                 }`}
             >
-                <Navigation title={props.data.title} />
+                <Navigation title={props.data.title} nav={props.nav} />
             </div>
         </header>
     );
