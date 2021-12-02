@@ -14,6 +14,8 @@ import Cursor from "./components/cursor";
 function App() {
     const [isloading, setIsLoading] = useState(true);
     const [data, setData] = useState({});
+    const [images, setImages] = useState();
+    let imagesArray = [1, 2, 3];
 
     function getData() {
         fetch("./data/data.json")
@@ -35,6 +37,7 @@ function App() {
 
     useEffect(() => {
         getData();
+        setImages(imagesArray.sort(() => Math.random() - 0.5));
     }, []);
 
     return (
@@ -48,6 +51,7 @@ function App() {
                         data={data.hero}
                         promo={data.promo}
                         link={data.navigation.menu[0].link}
+                        image={images}
                     />
                     <div class="container">
                         <About
