@@ -1,9 +1,14 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Promo from "./promo";
+import {Transition} from "react-transition-group";
 
 export default function Hero(props) {
-    let images = [1, 2, 3];
-    images = images.sort(() => Math.random() - 0.5);
+    const [images, setImages] = useState();
+    let imagesArray = [1, 2, 3];
+
+    useEffect(() => {
+        setImages(imagesArray.sort(() => Math.random() - 0.5));
+    }, []);
 
     return (
         <section id={props.link} className="hero">
