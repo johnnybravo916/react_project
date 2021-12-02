@@ -1,8 +1,13 @@
 .hero {
+    --height: auto;
     background-size: cover;
     text-align: left;
-    min-height: 100vh;
+    min-height: var(--height);
     padding-top: 20vh;
+    @include l-up {
+        --font-size: 1.5rem;
+        --height: 100vh;
+    }
     .container {
         margin-bottom: 4rem;
     }
@@ -41,6 +46,6 @@
     img {
         margin-left: auto;
         display: block;
-        max-width: 100%;
+        max-width: 80%;
     }
 }
