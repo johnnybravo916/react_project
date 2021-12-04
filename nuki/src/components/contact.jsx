@@ -21,12 +21,16 @@ export default function Contact(props) {
                         <a
                             href={props.data.phone_link}
                             title={props.data.phone}
+                            target="_blank"
+                            rel="noreferrer"
                         >
                             {props.data.phone}
                         </a>
                         <a
                             href={props.data.email_link}
                             title={props.data.email}
+                            target="_blank"
+                            rel="noreferrer"
                         >
                             {props.data.email}
                         </a>

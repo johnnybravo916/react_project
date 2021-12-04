@@ -10,6 +10,7 @@ import About from "./components/about";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Cursor from "./components/cursor";
+import branding from "./assets/icons/branding-large.png";
 
 function App() {
     const [isloading, setIsLoading] = useState(true);
@@ -43,7 +44,12 @@ function App() {
     return (
         <>
             {isloading ? (
-                "loading"
+                <div className="loading">
+                    <div>
+                        <strong>Loading...</strong>
+                        <img src={branding} alt="Nuki Sushi Restaurant"></img>
+                    </div>
+                </div>
             ) : (
                 <main>
                     <Header data={data.meta} nav={data.navigation} />

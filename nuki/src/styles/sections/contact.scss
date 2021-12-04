@@ -18,6 +18,9 @@
         color: var(--col-font-black);
         font-style: normal;
         text-decoration: none;
+        &:hover {
+            color: var(--col-font-lred);
+        }
     }
     h3 {
         color: var(--col-font-red);
