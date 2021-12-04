@@ -1,5 +1,6 @@
 {
-    "name": "nuki",
+    "name": "Nuki Sushi Restaurant",
+    "homepage": ".",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
