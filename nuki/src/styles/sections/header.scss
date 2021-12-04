@@ -1,6 +1,7 @@
 header {
     padding: 2rem 2rem;
     position: fixed;
+    z-index: 1;
     display: flex;
     top: 0;
     width: 100%;
@@ -54,6 +55,7 @@ header {
     .bttn--menu {
         display: none;
         position: absolute;
+        z-index: 5;
         right: 30px;
         top: 30px;
         font-weight: var(--font-weight-light);

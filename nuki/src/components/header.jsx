@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import logo from "../assets/icons/branding-large.png";
+import Fade from "react-reveal/Fade";
 
 import Navigation from "./navigation";
 
@@ -26,21 +27,25 @@ export default function Header(props) {
 
     return (
         <header>
-            <a href="/" className="branding" title={props.data.title}>
-                <img
-                    src={logo}
-                    alt={props.data.title}
-                    title={props.data.title}
-                />
-                {props.data.title}
-            </a>
-            <div
-                className={`menu-desktop ${
-                    showMainMenu ? null : "js-inactive"
-                }`}
-            >
-                <Navigation title={props.data.title} nav={props.nav} />
-            </div>
+            <Fade>
+                <a href="/" className="branding" title={props.data.title}>
+                    <img
+                        src={logo}
+                        alt={props.data.title}
+                        title={props.data.title}
+                    />
+                    {props.data.title}
+                </a>
+            </Fade>
+            <Fade right>
+                <div
+                    className={`menu-desktop ${
+                        showMainMenu ? null : "js-inactive"
+                    }`}
+                >
+                    <Navigation title={props.data.title} nav={props.nav} />
+                </div>
+            </Fade>
             <strong
                 className={`js-menu bttn--menu ${
                     showMenuBttn ? "js-active" : null

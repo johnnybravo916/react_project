@@ -2,6 +2,7 @@
     display: grid;
     --columns: 1;
     grid-template-columns: repeat(var(--columns), 1fr);
+    overflow: hidden;
     @include m-up {
         --columns: 3;
     }

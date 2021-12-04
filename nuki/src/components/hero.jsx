@@ -1,12 +1,13 @@
 import React from "react";
 import Promo from "./promo";
-import {Transition} from "react-transition-group";
+import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 
 export default function Hero(props) {
     return (
-        <Transition timeout={500}>
-            <section id={props.link} className="hero">
-                <div className="container">
+        <section id={props.link} className="hero">
+            <div className="container">
+                <Slide left cascade>
                     <strong className="kicker">{props.data.kicker}</strong>
                     <h1>{props.data.header}</h1>
                     <h2>
@@ -22,12 +23,14 @@ export default function Hero(props) {
                         </a>
                     </h2>
                     <Promo promo={props.promo} />
-                </div>
+                </Slide>
+            </div>
+            <Fade bottom>
                 <img
                     src={`./images/background-${props.image[0]}.jpg`}
                     alt={props.data.header}
                 />
-            </section>
-        </Transition>
+            </Fade>
+        </section>
     );
 }
