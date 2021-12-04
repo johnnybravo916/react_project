@@ -59,7 +59,7 @@ function App() {
                         link={data.navigation.menu[0].link}
                         image={images}
                     />
-                    <div class="container">
+                    <div className="container">
                         <About
                             data={data.about}
                             title={data.meta.title}

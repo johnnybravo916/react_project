@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
+import {v4 as uuid_v4} from "uuid";
 
 export default function Menu(props) {
     const [currentTab, setCurrentTab] = useState("Starters");
@@ -17,7 +18,7 @@ export default function Menu(props) {
                             {Object.entries(props.data).map(([key, value]) => {
                                 return (
                                     <button
-                                        key={key}
+                                        key={uuid_v4()}
                                         onClick={() =>
                                             setCurrentTab(value.title)
                                         }
@@ -36,7 +37,7 @@ export default function Menu(props) {
                     <div className="menu__food">
                         {Object.entries(props.data).map(([key, value]) => {
                             return (
-                                <div key={key} className="tab-content">
+                                <div key={uuid_v4()} className="tab-content">
                                     <ul>
                                         {Object.values(value.content).map(
                                             (v, i) => {
@@ -45,7 +46,7 @@ export default function Menu(props) {
                                                 ) {
                                                     return (
                                                         <Slide right>
-                                                            <li key={i}>
+                                                            <li key={uuid_v4()}>
                                                                 <strong>
                                                                     {v.title}
                                                                 </strong>

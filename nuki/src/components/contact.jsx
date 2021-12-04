@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/icons/branding-large.png";
 import Fade from "react-reveal/Fade";
+import {v4 as uuid_v4} from "uuid";
 
 export default function Contact(props) {
     return (
@@ -51,7 +52,7 @@ export default function Contact(props) {
                     <ul>
                         {Object.entries(props.data.hours).map(([v, i]) => {
                             return (
-                                <li key={i}>
+                                <li key={uuid_v4()}>
                                     {i.day} - {i.time}
                                 </li>
                             );
