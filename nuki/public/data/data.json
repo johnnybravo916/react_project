@@ -57,7 +57,7 @@
                 },
                 {
                     "title": "Spicy Miso Soup",
-                    "price": 2.0
+                    "price": 3.0
                 },
                 {
                     "title": "Edamame",
@@ -85,7 +85,7 @@
                 {
                     "title": "Sashimi Sampler",
                     "description": "Chef's Choice of Eight Sashimi Pieces",
-                    "price": 9.0
+                    "price": 16.0
                 },
                 {
                     "title": "Wild TarTar",
@@ -169,7 +169,7 @@
                 },
                 {
                     "title": "Salmon Avacado Roll",
-                    "price": 5.0
+                    "price": 6.0
                 },
                 {
                     "title": "Tuna Avocado Roll",
@@ -590,9 +590,9 @@
             }
         ],
         "phone": "(312) 877-5315",
-        "phone_link": "tel:3122852481",
-        "email": "Nukiemail",
-        "email_link": "mailto:nuki@gmail.com",
+        "phone_link": "tel:3128775315",
+        "email": "nukisushirestaurant@gmail.com",
+        "email_link": "mailto:nukisushirestaurant@gmail.com",
         "address": "1406 W Grand Ave, Chicago, IL 60642",
         "address_link": "https://goo.gl/maps/H5QdGECrb8rSai7M6"
     }

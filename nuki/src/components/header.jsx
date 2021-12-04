@@ -56,7 +56,7 @@ export default function Header(props) {
             </strong>
             <div
                 className={`menu-responsive ${
-                    showMobileMenu ? "js-active" : null
+                    showMobileMenu ? "js-active fade-in" : null
                 }`}
             >
                 <Navigation title={props.data.title} nav={props.nav} />
