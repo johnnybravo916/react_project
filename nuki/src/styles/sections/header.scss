@@ -7,6 +7,9 @@ header {
     width: 100%;
     box-sizing: border-box;
     justify-content: space-between;
+    @include fsm-only {
+        padding: 1rem;
+    }
     .branding {
         font-size: 0;
         line-height: 0;
@@ -14,6 +17,9 @@ header {
     }
     img {
         max-width: 100px;
+        @include fsm-only {
+            max-width: 70px;
+        }
     }
     nav {
         a {

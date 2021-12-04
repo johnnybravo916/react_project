@@ -7,4 +7,9 @@
             text-decoration: none;
         }
     }
+    @include fsm-only {
+        h2 {
+            font-size: 2rem;
+        }
+    }
 }

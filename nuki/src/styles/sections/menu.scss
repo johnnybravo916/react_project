@@ -2,9 +2,13 @@
     min-height: 100vh;
     overflow: hidden;
     h2 {
+        --fontSize: 5rem;
         text-align: center;
-        font-size: 5rem;
+        font-size: var(--fontSize);
         margin-bottom: 2rem;
+        @include fsm-only {
+            --fontSize: 3rem;
+        }
     }
     .menu__content {
         text-align: center;
@@ -17,6 +21,10 @@
             h3 {
                 font-weight: var(--font-weight-medium);
                 position: relative;
+                @include fsm-only {
+                    font-size: 1rem;
+                    margin-bottom: 0.5rem;
+                }
             }
             &.active h3 {
                 padding-left: 1rem;
@@ -57,9 +65,16 @@
     }
     li {
         margin-bottom: 1rem;
+        @include fsm-only {
+            margin-bottom: 0.25rem;
+        }
     }
     strong {
         display: block;
+        @include fsm-only {
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
     }
     .description {
         display: block;
@@ -68,5 +83,22 @@
     .price {
         display: block;
         font-size: 1.5rem;
+        @include fsm-only {
+            font-size: 1rem;
+        }
+    }
+    .bttn-menu {
+        display: none;
+        text-decoration: none;
+        color: var(--col-font-white);
+        background: #000;
+        font-weight: var(--font-weight-light);
+        text-transform: uppercase;
+        @include fsm-only {
+            padding: 5px 0;
+            margin: 0 20px;
+            border-radius: 20px;
+            display: block;
+        }
     }
 }

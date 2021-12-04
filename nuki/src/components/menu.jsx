@@ -10,7 +10,7 @@ export default function Menu(props) {
         <section>
             <div id={props.link} className="menu">
                 <Fade top>
-                    <h2>{props.title}</h2>
+                    <h2 id="food">{props.title}</h2>
                 </Fade>
                 <div className="menu__content grid-layout">
                     <div className="menu__nav">
@@ -70,6 +70,13 @@ export default function Menu(props) {
                                 </div>
                             );
                         })}
+                        <a
+                            href="#food"
+                            alt="Go back to menu"
+                            className="bttn-menu"
+                        >
+                            Go back to menu
+                        </a>
                     </div>
                 </div>
             </div>

@@ -12,6 +12,9 @@
     }
     .branding img {
         max-width: 16rem;
+        @include fsm-only {
+            display: none;
+        }
     }
     a {
         display: block;
