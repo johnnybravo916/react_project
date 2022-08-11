@@ -1,2 +1,3 @@
-# React Project
-React website
+# React website for Nuki Sushi restaurant
+
+
